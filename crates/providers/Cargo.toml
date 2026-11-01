@@ -12,9 +12,10 @@ path = "src/main.rs"
 
 [features]
 default = ["all"]
-all = ["chatglm", "deepseek"]
+all = ["chatglm", "deepseek", "qwen"]
 chatglm = []
 deepseek = []
+qwen = []
 
 [dependencies]
 agent2api-provider-protocol = { git = "https://github.com/ProvidersPlugin/Agent2Providers", tag = "v3.3.0-beta.6" }
